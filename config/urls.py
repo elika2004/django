@@ -20,6 +20,6 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse('hello elika')
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/',admin.site.urls),
     path('',home),
 ]
